@@ -2,11 +2,11 @@ from abc import ABC
 
 from pydantic import BaseModel
 
-from cike_nexus.data.enums.McpType import McpType
+from cike_nexus.data.enums.ToolType import ToolType
 
 
 class McpToolConfigValue(BaseModel,ABC):
-    type:McpType
+    type:ToolType
 
 class StdioMcpToolConfigValue(McpToolConfigValue):
     command:str

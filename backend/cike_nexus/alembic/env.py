@@ -5,7 +5,7 @@ from sqlalchemy import engine_from_config
 from sqlalchemy import pool
 
 from alembic import context
-from cike_nexus.data.entities import AgentApplication, Tool, User
+from cike_nexus.data.entities import AgentApplication,AgentConversation,AgentConversationMessage,AgentConversationMessageContent,AgentTool, Tool, User,UserAgentConversation,Department,DepartmentUser
 
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.

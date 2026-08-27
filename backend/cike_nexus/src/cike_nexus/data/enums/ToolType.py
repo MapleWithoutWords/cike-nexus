@@ -2,5 +2,6 @@ from enum import Enum
 
 
 class ToolType(Enum):
-    MCP="MCP"
+    StdioMCP = "StdioMCP"
+    HttpMCP = "HttpMCP"
     SKILL="SKILL"

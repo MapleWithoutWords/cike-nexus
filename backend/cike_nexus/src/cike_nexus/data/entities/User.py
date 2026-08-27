@@ -1,6 +1,6 @@
-from sqlmodel import Field, SQLModel
+from sqlmodel import Field
 
-from cike_nexus.data.entities.FullAuditedEntity import FullAuditedEntity
+from cike_nexus.data.abstracts.FullAuditedEntity import FullAuditedEntity
 
 
 class User(FullAuditedEntity, table=True):
